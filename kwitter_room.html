@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Kwitter Room</title>
+	<title>LetsChat Room</title>
 <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
 <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
@@ -21,18 +21,18 @@
 <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logOut()">Logout</button>
 	<center>
 		<h1 class="header">	
-			Kwitter	
+			LetsChat!
 			<sup>
 				<img src="msgIcon.png">
 			</sup>
 		</h1>
-		<h3 class="color_white"></h3>
+		<h3 class="color_white" id="user_name"></h3>
 		<div class="form-group input_div_room_page">
 			<label>#Add Room:</label>
 			<input type="text" id="add_room" class="form-control" placeholder="#Room Name">
 		</div>
 		<button class="btn btn-success" onclick="AddRoom()">#Add Room</button>
-		<h3 class="color_white">#TrendingRooms</h3>
+		<h3 class="color_white">#EventRooms</h3>
 		<div id="output"></div>
 	
 	</center>
