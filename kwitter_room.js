@@ -39,7 +39,7 @@ getData();
 
 function redirectToRoomName(c_name){
   console.log(c_name);
-  localStorage.setItem("selected_class_name",c_name);
+  localStorage.setItem("Class-Name",c_name);
   window.location="kwitter_page.html";
 }
 
