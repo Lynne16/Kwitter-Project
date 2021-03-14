@@ -60,7 +60,6 @@ getData();
   }
 
 function BackToClass(){
-    localStorage.removeItem("Class-name");
     window.location="kwitter_room.html";
 
 }
